@@ -3,7 +3,7 @@
 b={'ari':'085267888','dina':'087677776'}
 print('Kontak awal')
 print('==============================')
-print('    nama    |   nomor teleon')
+print('    nama    |   nomor telepon')
 print('==============================')
 print('1.    ari   |   085267888','\n2.    dina    |   087677776')
 
