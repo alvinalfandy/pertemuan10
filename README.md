@@ -1,5 +1,14 @@
-# tugas-pertemuan-ke-10
-# dictionary
+# Pertemuan-10
+
+| Variable | Isi |
+| -------- | --- |
+| **Nama** | Alvin alfandy |
+| **NIM** | 312310473 |
+| **Kelas** | TI.23.A.5 |
+| **Mata Kuliah** | Bahasa Pemrograman |
+
+# Latihan 
+
 1. membuat kontak awal /
 ``` b = {'ari' : '085267888', 'dina' : 087677776} ```
 2. menampilkan kontak ari /
@@ -17,13 +26,14 @@
 8. menghapus kontak dina /
 ``` del b['dina'] ``` /
 
-## berikut adalah kode lengkapnya : /
+## berikut adalah kode programnya 
+
 
 ```python
 b={'ari':'085267888','dina':'087677776'}
 print('Kontak awal')
 print('==============================')
-print('    nama    |   nomor teleon')
+print('    nama    |   nomor telepon')
 print('==============================')
 print('1.    ari   |   085267888','\n2.    dina    |   087677776')
 
@@ -49,15 +59,14 @@ print(b)
 print('\nMenghapus kontak dina')
 del b['dina']
 print(b,'\n')
-```
+``````
 
-
-dan ini adalah hasil program nya: \
-![hasil](Gambar/hasil-program.png) \
+## dan ini adalah hasil program nya
+![Alt text](gambar/image.png) \
 
 # tugas praktikum
 program sederhana yang akan menampilkan daftar nilai mahasiswa \
-flow chart: \
+## Flowchart 
 ![gambar](gambar/flowchart.png)  \
 1. membuat lopping agar program terus berjalan:
 ``` sh while True :
@@ -89,14 +98,19 @@ elif (c.lower() == 'u'):
 4. menggunakan else apabila salah memasukan pilihan 
 else:
         print("Pilih menu yang tersedia: ")                                                   
+## ini adalah contoh output untuk (t)
 
-ini adalah contoh output untuk (t): \
-![t](gambar/menambahkandata.png) \
-ini adalah contoh output untuk (u): \
-![u](gambar/mengubah.png) \
-output pilihan (c): \
-![c](gambar/mencari.png) \
-output pilihan (h): \
-![h](gambar/menghapus.png) \
-output l atau lihat :\
-![l](gambar/menampilkan_data.png)
+![Alt text](gambar/image-1.png) 
+
+## ini adalah contoh output untuk (u): 
+
+![Alt text](gambar/image-2.png)
+
+## output cari (c)
+![Alt text](gambar/image-3.png) 
+
+## output hapus (h)
+![Alt text](gambar/image-4.png) 
+
+## output l atau lihat 
+![Alt text](gambar/image-5.png)
